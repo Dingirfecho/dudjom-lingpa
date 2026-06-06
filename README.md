@@ -10,7 +10,7 @@ Translated by **Lama Federico Andino** (Lama Fede, [vajrakula.com](https://www.v
 
 This repository hosts the project's public-facing site, presenting:
 
-- The current state of the translation effort (4 of 21 volumes complete)
+- The current state of the translation effort (6 of 21 volumes complete)
 - A short biography of Dudjom Lingpa
 - Volume-by-volume synopses of the four completed volumes
 - The lineage-context of the translation, as set out in the *Garland of Lives Prayer*
