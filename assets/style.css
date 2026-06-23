@@ -351,6 +351,36 @@ main { position: relative; }
 .progress-prose p { margin: 0; }
 .progress-prose p + p { margin-top: 1em; }
 
+/* Completion state — restrained: a subtle gold inner border + small gold badge */
+.progress-card.complete {
+  border-color: var(--gold);
+}
+.progress-card.complete::before,
+.progress-card.complete::after {
+  width: 36px;
+  height: 36px;
+  border-color: var(--gold);
+  border-width: 1.5px;
+}
+.progress-card.complete .meter-fill {
+  background: linear-gradient(90deg, var(--maroon) 0%, var(--gold) 60%, var(--gold-soft) 100%);
+}
+.complete-badge {
+  display: inline-block;
+  margin: 0 auto 14px;
+  padding: 5px 14px;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 13px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+  border-radius: 1px;
+  background: rgba(176, 135, 56, 0.06);
+  line-height: 1;
+}
+
 /* ============================================================
    BIO PROSE (DUDJOM LINGPA)
    ============================================================ */
